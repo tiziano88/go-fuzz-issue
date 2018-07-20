@@ -1,0 +1,2 @@
+CGO_ENABLED=0 go-fuzz-build github.com/tiziano88/go-fuzz-issue
+go-fuzz -bin=./gofuzzissue-fuzz.zip -workdir=./fuzz-workdir
